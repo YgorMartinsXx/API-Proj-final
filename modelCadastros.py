@@ -3,10 +3,12 @@ database = {"cadastros":[
     {"fornecedores":[
 
         {"login":"serjinho",
-         "senha":"DaleDele"},
+         "senha":"DaleDele",
+         "catalogo":["ovo,farinha","açucar","manteiga","oleo","cenoura"]},
 
         {"login":"thaisTralando",
-         "senha":"DoiPapai"}
+         "senha":"DoiPapai",
+         "catalogo":["limão","leite condenado","creme de leite","gelatina incolor"]}
 
     ]},
 
