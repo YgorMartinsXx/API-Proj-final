@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+import os
 import modelCadastros as model
 
 app = Flask(__name__)
@@ -60,5 +61,5 @@ def login_fornecedores():
 
 
 
-if __name__ == '__main__':
-    app.run(host='localhost', port=5002, debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000 )))
